@@ -19,4 +19,4 @@ double sqr2 = Math.Pow(y2, 2);
 double sqrt = sqr1 + sqr2;
 double res = Math.Sqrt(sqrt);
 
-Console.WriteLine($"{len:res}");
+Console.WriteLine($"{res:f2}");
