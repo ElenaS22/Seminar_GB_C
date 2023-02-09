@@ -7,13 +7,13 @@ Console.Clear();
 
 int Summa(int N)
 {
-int S = 0;
-  while (N > 0)
-{
-S = S + (N % 10);
-N = N / 10;
-}
-return S;
+    int S = 0;
+    while (N > 0)
+    {
+        S = S + (N % 10);
+        N = N / 10;
+    }
+    return S;
 }
 Console.WriteLine("Введите число N ");
 int N = int.Parse(Console.ReadLine()!);
